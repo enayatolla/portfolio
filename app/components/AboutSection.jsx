@@ -56,7 +56,7 @@ const AboutSection = () => {
             {/* <img src="/images/about-image.png" width={500} height={500} /> */}
 
             <div
-               className="w-[500px] h-[500px]"
+               className="w-full aspect-square"
                style={{ background: `url(/images/about-image.png)`, backgroundSize: "cover" }}
             ></div>
 

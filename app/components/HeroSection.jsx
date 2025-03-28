@@ -13,9 +13,9 @@ const HeroSection = () => {
                initial={{ opacity: 0, scale: 0.5 }}
                animate={{ opacity: 1, scale: 1 }}
                transition={{ duration: 0.5 }}
-               className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+               className="col-span-8 place-self-center text-center sm:text-left justify-self-start p-4"
             >
-               <h1 className="text-white mb-4 text-3xl sm:text-4xl lg:text-6xl lg:leading-normal font-extrabold">
+               <h1 className="text-white mb-4 text-2xl sm:text-3xl lg:text-5xl lg:leading-normal font-extrabold">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
                      Hello, I&apos;m{" "}
                   </span>
@@ -55,6 +55,7 @@ const HeroSection = () => {
                   </Link>
                </div>
             </motion.div>
+
             <motion.div
                initial={{ opacity: 0, scale: 0.5 }}
                animate={{ opacity: 1, scale: 1 }}
@@ -62,16 +63,8 @@ const HeroSection = () => {
                className="col-span-4 place-self-center mt-4 lg:mt-0"
             >
                <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-                  {/* <Image
-                     src="/images/hero-image.png"
-                     alt="hero image"
-                     className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                     width={300}
-                     height={300}
-                  /> */}
-
                   <div
-                     className="w-[300px] h-[300px] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                     className="w-[100%] h-[100%] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                      style={{ background: `url(/images/hero-image.png)`, backgroundSize: "cover" }}
                   ></div>
                </div>

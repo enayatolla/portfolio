@@ -12,3 +12,6 @@ const Footer = () => {
 };
 //dacshisccsahhicsahio
 export default Footer;
+
+// qjknsaknlnkscnklascnklascnklascklnacskln
+// sskjcbaskjbkjssjbckqjbcs

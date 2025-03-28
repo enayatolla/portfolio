@@ -1,9 +1,0 @@
-version: "3.8"
-services:
-   nextjs:
-      build:
-         context: .
-      container_name: nextapp
-      restart: always
-      ports:
-         - 80:3000

@@ -19,7 +19,7 @@ const navLinks = [
       path: "#contact",
    },
 ];
-// kxnkkknlNKLAXklnaxknlnxakknlaxklnxa
+
 const Navbar = () => {
    const [navbarOpen, setNavbarOpen] = useState(false);
 

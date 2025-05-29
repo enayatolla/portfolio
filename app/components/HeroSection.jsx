@@ -65,7 +65,12 @@ const HeroSection = () => {
                <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
                   <div
                      className="w-[100%] h-[100%] absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                     style={{ background: `url(/images/hero-image.png)`, backgroundSize: "cover" }}
+                     style={{
+                        background: `url(/images/me-2.png)`,
+                        backgroundSize: "cover",
+                        backgroundRepit: "no-repeat",
+                        borderRadius: "50%",
+                     }}
                   ></div>
                </div>
             </motion.div>
